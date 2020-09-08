@@ -1,0 +1,76 @@
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0;
+  }
+  .header {
+    width: 450px;
+    padding: 10px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+  }
+  .header .logo {
+    width: 200px;
+    float: left;
+  }
+  .header .logo img {
+    width: 100%;
+  }
+  .header .search {
+    width: 45px;
+    float: right;
+    margin-right: 10px;
+  }
+  .header .search img {
+    width: 100%;
+  }
+
+  .header .user {
+    width: 45px;
+    float: right;
+  }
+  .header .user img {
+    width: 100%;
+  }
+  .content {
+    margin: 0 auto;
+    width: 470px;
+    /* border: 1px solid black; */
+  }
+  .vimg {
+    width: 470px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .vimg img {
+    width: 100%;
+  }
+  .video {
+    overflow: hidden;
+  }
+  .video .user {
+    float: left;
+    width: 30px;
+  }
+  .video .name {
+    float: left;
+    width: 380px;
+    margin-left: 10px;
+  }
+  .name h2 {
+    font-size: 1em;
+    margin: 0;
+  }
+  .video .more {
+    float: right;
+    width: 30px;
+  }
+  .tag {
+    margin: 0;
+  }
+  .tag li {
+    display: inline;
+    margin-right: 10px;
+    color: gray;
+  }
+}

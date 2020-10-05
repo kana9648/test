@@ -56,14 +56,61 @@
         width: 620px;
         float: left;
         height: 600px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
       }
 
       section aside {
         float: right;
         width: 320px;
         height: 600px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
+      }
+
+      aside fieldset {
+        border: none;
+        margin-top: 15px;
+      }
+
+      aside legend {
+        /* font-weight: bold; */
+        font-size: 1.5em;
+        margin-bottom: 15px;
+      }
+
+      .form-group {
+        /* width: 310px; */
+        margin: 0 auto;
+        margin-bottom: 30px;
+        /* display: block; */
+      }
+
+      #name,
+      #phone,
+      #email,
+      #msg {
+        display: block;
+        margin-top: 10px;
+      }
+
+      input {
+        border: none;
+        background-color: rgb(221, 221, 221);
+        width: 270px;
+        height: 30px;
+      }
+
+      textarea {
+        border: none;
+        background-color: rgb(221, 221, 221);
+        width: 270px;
+      }
+
+      .form-group button {
+        background-color: rgb(254, 96, 129);
+        border: none;
+        width: 120px;
+        height: 40px;
+        color: white;
       }
     </style>
   </head>
@@ -90,7 +137,9 @@
             dolorem quisomnis nam quas sint assumenda id adipisci veritatis
             totam.</p
           >
-          <div id="map" style="width:620px;height:400px;"><br />&nbsp;지도가 표시될 영역</div>
+          <div id="map" style="width: 620px; height: 500px"
+            ><br />&nbsp;지도가 표시될 영역</div
+          >
         </article>
         <aside>
           <form action="">
